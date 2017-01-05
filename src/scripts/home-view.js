@@ -7,11 +7,15 @@ const HomeView = React.createClass({
     return(
       <div>
         <nav>
-          <div className="navLogo"></div>
+          <div className="navLogo">
+            <img src="../images/Victor 1_Fotor.jpg"/>
+          </div>
           <div className="navButts"></div>
         </nav>
         <div className="jumboHeader">
           <img src="../images/pexels-photo-27031.jpg"/>
+          <h1>Turning Your Ideas Into Reality</h1>
+          <h2>____ Today ____</h2>
         </div>
         <div className="skillsBox"></div>
         <div className="projectBox"></div>
