@@ -2,6 +2,17 @@ const ReactDOM = require('react-dom');
 const React = require('react')
 const Backbone = require('backbone');
 
-document.querySelector('#app-container').innerHTML = `<h1>YOLO</h1>`
+const AppRouter = Backbone.Router.extend({
+  routes: {
+    '': "showHome"
+  },
+  showHome: function(){
+    ReactDOM.render
+  },
+  initialize: function(){
+
+      Backbone.history.start()
+   }
+})
 
 new AppRouter()
