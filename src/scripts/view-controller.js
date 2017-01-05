@@ -1,4 +1,5 @@
 const React = require('react')
+const HomeView = require('./home-view.js')
 
 const AppView = React.createClass({
 
