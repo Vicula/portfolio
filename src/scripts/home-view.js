@@ -8,12 +8,12 @@ const HomeView = React.createClass({
       <div>
         <nav>
           <div className="navLogo">
-            <img src="../images/Victor 1_Fotor.jpg"/>
+            <img className="headerProfPicCentered" src="../images/Victor 1_Fotor.jpg"/>
           </div>
           <div className="navButts"></div>
         </nav>
         <div className="jumboHeader">
-          <img src="../images/pexels-photo-27031.jpg"/>
+          <img className="headerBackPic" src="../images/pexels-photo-27031.jpg"/>
           <h1>Turning Your Ideas Into Reality</h1>
           <h2>____ Today ____</h2>
         </div>

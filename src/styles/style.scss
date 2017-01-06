@@ -9,7 +9,21 @@ body{
 	padding: 0;
 }
 
-img{
+// img{
+// 	width: 100%;
+//
+// }
+
+.headerProfPicCentered{
+	width:12%;
+	border-radius: 100%;
+	position: absolute;
+	left: 46%;
+	top: 20%;
+	border: radial-gradient(circle, rgba(0,0,0,0));
+	background: radial-gradient(circle, rgba(0,0,0,0));
+}
+
+.headerBackPic{
 	width: 100%;
-	
 }
