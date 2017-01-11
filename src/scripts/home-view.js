@@ -17,8 +17,16 @@ const HomeView = React.createClass({
           <h1>Turning Your Ideas Into Reality</h1>
           <h2>____ Today ____</h2>
         </div>
-        <div className="skillsBox"></div>
-        <div className="projectBox"></div>
+        <div className="skillsBox">
+          <div></div>
+        </div>
+        <div className="projectBox">
+          <h1></h1>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
         <div className="aboutMeBox"></div>
         <div className="contactBox"></div>
         <div className="quoteBox"></div>
