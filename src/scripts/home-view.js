@@ -3,7 +3,7 @@ const React = require('react');
 const HomeView = React.createClass({
   getInitialState: function(){
     return {
-      
+      scrollPosition: 0
     }
   },
 
@@ -72,7 +72,3 @@ const HomeView = React.createClass({
 
 
 module.exports = HomeView
-
-// when(document.body.scrollTop === 200){
-//   picName = "tickle"
-// }
