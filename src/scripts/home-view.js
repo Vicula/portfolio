@@ -1,10 +1,24 @@
 const React = require('react');
 
 const HomeView = React.createClass({
+  getInitialState: function(){
+    return {
+      
+    }
+  },
+
+  componentDidMount: function(){
+
+  },
 
   render: function(){
+    var picName = "headerProfPicCentered"
 
-    let picName = "headerProfPicCentered"
+
+    let runThing = function(){
+      console.log(document.body.scrollTop)
+    }
+
 
     return(
       <div>
@@ -13,7 +27,7 @@ const HomeView = React.createClass({
             <img className={picName} src="../images/Victor 1_Fotor.jpg"/>
           </div>
           <div className="navButts">
-            <span className="fa fa-github" aria-hidden="true"></span>
+            <span onClick={runThing} className="fa fa-github" aria-hidden="true"></span>
             <span className="fa fa-linkedin-square" aria-hidden="true"></span>
             <span className="fa fa-envelope" aria-hidden="true"></span>
           </div>
@@ -56,4 +70,9 @@ const HomeView = React.createClass({
   }
 })
 
+
 module.exports = HomeView
+
+// when(document.body.scrollTop === 200){
+//   picName = "tickle"
+// }
