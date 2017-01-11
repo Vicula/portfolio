@@ -4,11 +4,13 @@ const HomeView = React.createClass({
 
   render: function(){
 
+    let picName = "headerProfPicCentered"
+
     return(
       <div>
         <nav>
           <div className="navLogo">
-            <img className="headerProfPicCentered" src="../images/Victor 1_Fotor.jpg"/>
+            <img className={picName} src="../images/Victor 1_Fotor.jpg"/>
           </div>
           <div className="navButts">
             <span className="fa fa-github" aria-hidden="true"></span>

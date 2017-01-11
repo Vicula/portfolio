@@ -28,3 +28,17 @@ body{
 .headerBackPic{
 	width: 100%;
 }
+
+.navButts{
+	position: fixed;
+	top: 0;
+	right: 0;
+	margin-right: 10px;
+
+	span{
+		color: white;
+		font-size: 35px;
+		padding-left: 10px;
+
+	}
+}
