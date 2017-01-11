@@ -21,13 +21,21 @@ const HomeView = React.createClass({
           <div></div>
         </div>
         <div className="projectBox">
-          <h1></h1>
+          <h1>Projects</h1>
+          <p></p>
           <div></div>
           <div></div>
           <div></div>
           <div></div>
         </div>
-        <div className="aboutMeBox"></div>
+        <div className="aboutMeBox">
+          <h1>Approach</h1>
+          <div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
         <div className="contactBox"></div>
         <div className="quoteBox"></div>
       </div>
