@@ -6,29 +6,37 @@ const HomeView = React.createClass({
       scrollPosition: false
     }
   },
+  isScrolling: function(){
+    var self = this
+    console.log(this.state.scrollPosition)
+    if(document.body.scrollTop > 300){
+      self.setState({scrollPosition: true})
+      console.log("hey1")
+      return
+    }else if(document.body.scrollTop < 300){
+      self.setState({scrollPosition: false})
+      
+    }
+    // if(){
+    //   if(window.scrollTop < 300){
+    //     self.setState({scrollPosition: false})
+    //     console.log("hey2")
+    //   }
+    // }
+  },
 
   componentDidMount: function(){
-    window.addEventListener("scroll", isScrolling)
+    window.addEventListener("scroll", this.isScrolling)
   },
-  isScrolling: function(){
-    let self = this
-    if(window.scrollTop > 300){
-      self.setState({scrollPosition: true})
-    }
-    if(this.state.scrollPosition === true){
-      if(window.scrollTop < 300){
-        self.setState({scrollPosition: false})
-      }
-    }
-  },
+
 
   render: function(){
     var picName = "headerProfPicCentered"
 
 
-    // let runThing = function(){
-    //   console.log(document.body.scrollTop)
-    // }
+    let runThing = function(){
+      console.log(document.body.scrollTop)
+    }
 
 
     return(
