@@ -12,8 +12,13 @@ const HomeView = React.createClass({
   },
   isScrolling: function(){
     let self = this
-    if(window.scrollTop === 300){
-
+    if(window.scrollTop > 300){
+      self.setState({scrollPosition: true})
+    }
+    if(this.state.scrollPosition === true){
+      if(window.scrollTop < 300){
+        self.setState({scrollPosition: false})
+      }
     }
   },
 
