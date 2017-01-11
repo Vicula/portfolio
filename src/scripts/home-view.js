@@ -3,21 +3,27 @@ const React = require('react');
 const HomeView = React.createClass({
   getInitialState: function(){
     return {
-      scrollPosition: 0
+      scrollPosition: false
     }
   },
 
   componentDidMount: function(){
+    window.addEventListener("scroll", isScrolling)
+  },
+  isScrolling: function(){
+    let self = this
+    if(window.scrollTop === 300){
 
+    }
   },
 
   render: function(){
     var picName = "headerProfPicCentered"
 
 
-    let runThing = function(){
-      console.log(document.body.scrollTop)
-    }
+    // let runThing = function(){
+    //   console.log(document.body.scrollTop)
+    // }
 
 
     return(
@@ -69,6 +75,13 @@ const HomeView = React.createClass({
 
   }
 })
+
+// var scrollListening = function(){
+//   console.log("scrolling")
+//   if(window.scrollTop > 200){
+//     picName = "headerProfPic"
+//   }
+// }
 
 
 module.exports = HomeView
