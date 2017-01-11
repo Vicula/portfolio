@@ -9,13 +9,13 @@ const HomeView = React.createClass({
   isScrolling: function(){
     var self = this
     console.log(this.state.scrollPosition)
-    if(document.body.scrollTop > 300){
+    if(document.body.scrollTop > 350){
       self.setState({scrollPosition: true})
       console.log("hey1")
       return
-    }else if(document.body.scrollTop < 300){
+    }else if(document.body.scrollTop < 350){
       self.setState({scrollPosition: false})
-      
+
     }
     // if(){
     //   if(window.scrollTop < 300){
@@ -31,7 +31,15 @@ const HomeView = React.createClass({
 
 
   render: function(){
-    var picName = "headerProfPicCentered"
+
+    var picName = "headerProfPic"
+
+    if(this.state.scrollPosition === false){
+      picName = "headerProfPicCentered"
+    } else {
+      picName = "headerProfPic"
+    }
+
 
 
     let runThing = function(){
@@ -53,8 +61,8 @@ const HomeView = React.createClass({
         </nav>
         <div className="jumboHeader">
           <img className="headerBackPic" src="../images/pexels-photo-27031.jpg"/>
-          <h1>Turning Your Ideas Into Reality</h1>
-          <h2>____ Today ____</h2>
+          <h1>I am <span className="headerName">Victor Carpenter</span> I specialize in <span className="headerFeats">Web Development</span> and <span className="headerFeats">Front-End Engineering</span></h1>
+          <h2>I also Create custom designs for websites, interfaces, and webapps based on your specifications & requirements. I'm experienced in print and identity design.</h2>
         </div>
         <div className="skillsBox">
           <div></div>
