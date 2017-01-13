@@ -8,10 +8,10 @@ const HomeView = React.createClass({
   },
   isScrolling: function(){
     var self = this
-    console.log(this.state.scrollPosition)
+    // console.log(this.state.scrollPosition)
     if(document.body.scrollTop > 575){
       self.setState({scrollPosition: true})
-      console.log("hey1")
+      // console.log("hey1")
       return
     }else if(document.body.scrollTop < 575){
       self.setState({scrollPosition: false})
@@ -75,7 +75,143 @@ const HomeView = React.createClass({
           <h1 className="headerText">Front-End Developer <span className="headerLowerText">Working for you</span></h1>
         </div>
         <div className="skillsBox">
-          <div></div>
+          <div className="hexRowEven">
+            <div className="center">
+              <div className="hexagon">
+                <div className="hex1">
+                  <div className="hex2">
+                    <div className="desc">
+                      <h2></h2>
+                      <p></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="center">
+              <div className="hexagon">
+                <div className="hex1">
+                  <div className="hex2">
+                    <div className="desc">
+                      <h2></h2>
+                      <p></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="center">
+              <div className="hexagon">
+                <div className="hex1">
+                  <div className="hex2">
+                    <div className="desc">
+                      <h2></h2>
+                      <p></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="center">
+              <div className="hexagon">
+                <div className="hex1">
+                  <div className="hex2">
+                    <div className="desc">
+                      <h2></h2>
+                      <p></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="center">
+              <div className="hexagon">
+                <div className="hex1">
+                  <div className="hex2">
+                    <div className="desc">
+                      <h2></h2>
+                      <p></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="center">
+              <div className="hexagon">
+                <div className="hex1">
+                  <div className="hex2">
+                    <div className="desc">
+                      <h2></h2>
+                      <p></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="hexRowOdd">
+          <div className="center">
+            <div className="hexagon">
+              <div className="hex1">
+                <div className="hex2">
+                  <div className="desc">
+                    <h2></h2>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="center">
+            <div className="hexagon">
+              <div className="hex1">
+                <div className="hex2">
+                  <div className="desc">
+                    <h2></h2>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="center">
+            <div className="hexagon">
+              <div className="hex1">
+                <div className="hex2">
+                  <div className="desc">
+                    <h2></h2>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="center">
+            <div className="hexagon">
+              <div className="hex1">
+                <div className="hex2">
+                  <div className="desc">
+                    <h2></h2>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="center">
+            <div className="hexagon">
+              <div className="hex1">
+                <div className="hex2">
+                  <div className="desc">
+                    <h2></h2>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div className="hexRowEven"></div>
         </div>
         <div className="projectBox">
           <h1>Projects</h1>
