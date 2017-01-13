@@ -74,6 +74,21 @@ body{
 	}
 }
 
+.navLinks{
+	position: fixed;
+	top: 0;
+	left: 45%;
+	font-size: 25px;
+	color: white;
+	text-decoration: underline;
+	// width: 30%;
+	// margin: auto;
+
+	.navLkHome{
+		padding-right: 20px;
+	}
+}
+
 .navLogo{
 	z-index: 1000000;
 	position: absolute;

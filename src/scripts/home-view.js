@@ -57,6 +57,9 @@ const HomeView = React.createClass({
           <div className="navLogo">
 
           </div>
+          <div className="navLinks">
+            <p className=""><span className="navLkHome">Home</span><span className="navLkSkills">Skills</span><span className="navLkProjects">Projects</span><span className="navLkAbout">About</span><span className="navLkContact">Contact</span></p>
+          </div>
           <div className="navButts">
             <span onClick={runThing} className="fa fa-github" aria-hidden="true"></span>
             <span className="fa fa-linkedin-square" aria-hidden="true"></span>
