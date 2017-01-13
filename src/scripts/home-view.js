@@ -32,12 +32,12 @@ const HomeView = React.createClass({
 
   render: function(){
 
-    var picName = "headerProfPic"
+    var picName = "logoCentered"
 
     if(this.state.scrollPosition === false){
-      picName = "headerProfPicCentered"
+      picName = "logoCentered"
     } else {
-      picName = "headerProfPic"
+      picName = "logoTop"
     }
 
 
@@ -55,7 +55,7 @@ const HomeView = React.createClass({
       <div>
         <nav>
           <div className="navLogo">
-            <span className="fa fa-code" aria-hidden="true"></span>
+            <span className="fa fa-code logoCentered" aria-hidden="true"></span>
           </div>
           <div className="navLinks">
             <p className=""><span className="navLkHome">Home</span><span className="navLkSkills">Skills</span><span className="navLkProjects">Projects</span><span className="navLkAbout">About</span><span className="navLkContact">Contact</span></p>
