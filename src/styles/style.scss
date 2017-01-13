@@ -13,6 +13,8 @@ body{
 	font-size: 0;
 }
 
+
+
 nav{
 	z-index: 100000;
 }
@@ -341,7 +343,7 @@ nav{
 .projectBox{
 	font-size: 15px;
 	h1{
-		font-size: 120px;
+		font-size: 150px;
 		text-align: center;
 		font-family: 'Anton', sans-serif;
 		margin-bottom: 0;
@@ -352,6 +354,52 @@ nav{
 		text-align: center;
 		width: 80%;
 		margin: auto;
+	}
+
+	.outterProjectBox{
+		padding-left: 12%;
+		margin: auto;
+		width: 100%;
+		.innerProjectBox{
+			width: 35%;
+			height: 450px;
+			background-color: red;
+			display: inline-block;
+			margin: 50px;
+			text-align: center;
+		}
+	}
+
+}
+
+.aboutMeBox{
+	font-size: 15px;
+	h1{
+		font-size: 150px;
+		text-align: center;
+		font-family: 'Anton', sans-serif;
+		margin-bottom: 0;
+	}
+	p{
+		color: gray;
+		font-size: 25px;
+		text-align: center;
+		width: 80%;
+		margin: auto;
+	}
+
+	.aboutPicBox{
+		font-size: 0;
+		width: 100%;
+		margin-top: 50px;
+
+		.aboutPic{
+			display: inline-block;
+			width: 33.33333%;
+			height: 500px;
+			background: green;
+			border: 1px solid black;
+		}
 	}
 }
 
