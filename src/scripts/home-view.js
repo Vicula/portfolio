@@ -60,9 +60,7 @@ const HomeView = React.createClass({
           </div>
         </nav>
         <div className="jumboHeader">
-          <img className="headerBackPic" src="../images/pexels-photo-27031.jpg"/>
-          <h1>I am <span className="headerName">Victor Carpenter</span> I specialize in <span className="headerFeats">Web Development</span> and <span className="headerFeats">Front-End Engineering</span></h1>
-          <h2>I also Create custom designs for websites, interfaces, and webapps based on your specifications & requirements. I'm experienced in print and identity design.</h2>
+          <img className="headerBackPic" src="../images/photo-1432821596592-e2c18b78144f.jpeg"/>
         </div>
         <div className="skillsBox">
           <div></div>
