@@ -9,11 +9,11 @@ const HomeView = React.createClass({
   isScrolling: function(){
     var self = this
     console.log(this.state.scrollPosition)
-    if(document.body.scrollTop > 350){
+    if(document.body.scrollTop > 575){
       self.setState({scrollPosition: true})
       console.log("hey1")
       return
-    }else if(document.body.scrollTop < 350){
+    }else if(document.body.scrollTop < 575){
       self.setState({scrollPosition: false})
 
     }
@@ -32,12 +32,12 @@ const HomeView = React.createClass({
 
   render: function(){
 
-    var picName = "logoCentered"
+    var picName = ""
 
     if(this.state.scrollPosition === false){
-      picName = "logoCentered"
+      picName = ""
     } else {
-      picName = "logoTop"
+      picName = "altNav"
     }
 
 
@@ -53,7 +53,7 @@ const HomeView = React.createClass({
 
     return(
       <div>
-        <nav>
+        <nav className={picName}>
           <div className="navLogo">
             <span className="fa fa-code logoCentered" aria-hidden="true"></span>
           </div>
@@ -71,6 +71,7 @@ const HomeView = React.createClass({
         </nav>
         <div className="jumboHeader">
           <img className="headerBackPic" src="../images/photo-1432821596592-e2c18b78144f.jpeg"/>
+
           <h1 className="headerText">Front-End Developer <span className="headerLowerText">Working for you</span></h1>
         </div>
         <div className="skillsBox">
@@ -92,6 +93,44 @@ const HomeView = React.createClass({
             <div></div>
           </div>
         </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
         <div className="contactBox">
           <h1>Contact</h1>
           <div>
