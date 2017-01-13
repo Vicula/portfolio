@@ -55,7 +55,7 @@ const HomeView = React.createClass({
       <div>
         <nav>
           <div className="navLogo">
-
+            <span className="fa fa-code" aria-hidden="true"></span>
           </div>
           <div className="navLinks">
             <p className=""><span className="navLkHome">Home</span><span className="navLkSkills">Skills</span><span className="navLkProjects">Projects</span><span className="navLkAbout">About</span><span className="navLkContact">Contact</span></p>

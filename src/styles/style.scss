@@ -96,17 +96,37 @@ body{
 	.navLkHome{
 		padding-right: 20px;
 	}
+	.navLkHome:hover{
+		text-decoration: underline;
+		color: lightgray;
+	}
 	.navLkSkills{
 		padding-right: 20px;
+	}
+	.navLkSkills:hover{
+		text-decoration: underline;
+		color: lightgray;
 	}
 	.navLkProjects{
 		padding-right: 20px;
 	}
+	.navLkProjects:hover{
+		text-decoration: underline;
+		color: lightgray;
+	}
 	.navLkAbout{
 		padding-right: 20px;
 	}
+	.navLkAbout:hover{
+		text-decoration: underline;
+		color: lightgray;
+	}
 	.navLkContact{
 		padding-right: 20px;
+	}
+	.navLkContact:hover{
+		text-decoration: underline;
+		color: lightgray;
 	}
 
 }
