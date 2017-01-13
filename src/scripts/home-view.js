@@ -79,7 +79,7 @@ const HomeView = React.createClass({
             <div className="center">
               <div className="hexagon">
                 <div className="hex1">
-                  <div className="hex2">
+                  <div className="hex2 hexA">
                     <div className="desc">
                       <h2></h2>
                       <p></p>
@@ -91,7 +91,7 @@ const HomeView = React.createClass({
             <div className="center">
               <div className="hexagon">
                 <div className="hex1">
-                  <div className="hex2">
+                  <div className="hex2 hexB">
                     <div className="desc">
                       <h2></h2>
                       <p></p>
@@ -103,7 +103,7 @@ const HomeView = React.createClass({
             <div className="center">
               <div className="hexagon">
                 <div className="hex1">
-                  <div className="hex2">
+                  <div className="hex2 hexC">
                     <div className="desc">
                       <h2></h2>
                       <p></p>
@@ -115,7 +115,7 @@ const HomeView = React.createClass({
             <div className="center">
               <div className="hexagon">
                 <div className="hex1">
-                  <div className="hex2">
+                  <div className="hex2 hexD">
                     <div className="desc">
                       <h2></h2>
                       <p></p>
@@ -127,7 +127,7 @@ const HomeView = React.createClass({
             <div className="center">
               <div className="hexagon">
                 <div className="hex1">
-                  <div className="hex2">
+                  <div className="hex2 hexE">
                     <div className="desc">
                       <h2></h2>
                       <p></p>
@@ -139,7 +139,7 @@ const HomeView = React.createClass({
             <div className="center">
               <div className="hexagon">
                 <div className="hex1">
-                  <div className="hex2">
+                  <div className="hex2 hexF">
                     <div className="desc">
                       <h2></h2>
                       <p></p>
@@ -153,7 +153,7 @@ const HomeView = React.createClass({
             <div className="center">
               <div className="hexagon">
                 <div className="hex1">
-                  <div className="hex2">
+                  <div className="hex2 hexG">
                     <div className="desc">
                       <h2></h2>
                       <p></p>
@@ -165,7 +165,7 @@ const HomeView = React.createClass({
             <div className="center">
               <div className="hexagon">
                 <div className="hex1">
-                  <div className="hex2">
+                  <div className="hex2 hexD">
                     <div className="desc">
                       <h2></h2>
                       <p></p>
@@ -177,7 +177,7 @@ const HomeView = React.createClass({
             <div className="center">
               <div className="hexagon">
                 <div className="hex1">
-                  <div className="hex2">
+                  <div className="hex2 hexI">
                     <div className="desc">
                       <h2></h2>
                       <p></p>
@@ -189,7 +189,7 @@ const HomeView = React.createClass({
             <div className="center">
               <div className="hexagon">
                 <div className="hex1">
-                  <div className="hex2">
+                  <div className="hex2 hexB">
                     <div className="desc">
                       <h2></h2>
                       <p></p>
@@ -201,7 +201,7 @@ const HomeView = React.createClass({
             <div className="center">
               <div className="hexagon">
                 <div className="hex1">
-                  <div className="hex2">
+                  <div className="hex2 hexG">
                     <div className="desc">
                       <h2></h2>
                       <p></p>
@@ -215,7 +215,7 @@ const HomeView = React.createClass({
             <div className="center">
               <div className="hexagon">
                 <div className="hex1">
-                  <div className="hex2">
+                  <div className="hex2 hexC">
                     <div className="desc">
                       <h2></h2>
                       <p></p>
@@ -227,7 +227,7 @@ const HomeView = React.createClass({
             <div className="center">
               <div className="hexagon">
                 <div className="hex1">
-                  <div className="hex2">
+                  <div className="hex2 hexA">
                     <div className="desc">
                       <h2></h2>
                       <p></p>
@@ -239,7 +239,7 @@ const HomeView = React.createClass({
             <div className="center">
               <div className="hexagon">
                 <div className="hex1">
-                  <div className="hex2">
+                  <div className="hex2 hexE">
                     <div className="desc">
                       <h2></h2>
                       <p></p>
@@ -251,7 +251,7 @@ const HomeView = React.createClass({
             <div className="center">
               <div className="hexagon">
                 <div className="hex1">
-                  <div className="hex2">
+                  <div className="hex2 hexF">
                     <div className="desc">
                       <h2></h2>
                       <p></p>
@@ -263,7 +263,7 @@ const HomeView = React.createClass({
             <div className="center">
               <div className="hexagon">
                 <div className="hex1">
-                  <div className="hex2">
+                  <div className="hex2 hexB">
                     <div className="desc">
                       <h2></h2>
                       <p></p>
@@ -275,7 +275,7 @@ const HomeView = React.createClass({
             <div className="center">
               <div className="hexagon">
                 <div className="hex1">
-                  <div className="hex2">
+                  <div className="hex2 hexI">
                     <div className="desc">
                       <h2></h2>
                       <p></p>
