@@ -46,12 +46,16 @@ const HomeView = React.createClass({
       console.log(document.body.scrollTop)
     }
 
+    // <div className="picHolder">
+    //   <img className={picName} src="../images/Victor 1_Fotor.jpg"/>
+    // </div>
+
 
     return(
       <div>
         <nav>
           <div className="navLogo">
-            <img className={picName} src="../images/Victor 1_Fotor.jpg"/>
+
           </div>
           <div className="navButts">
             <span onClick={runThing} className="fa fa-github" aria-hidden="true"></span>
