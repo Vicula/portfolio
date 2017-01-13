@@ -80,6 +80,7 @@ const HomeView = React.createClass({
               <div className="hexagon">
                 <div className="hex1">
                   <div className="hex2 hexA">
+                    <span className="fa fa-database hexIcon" aria-hidden="true"></span>
                     <div className="desc">
                       <h2></h2>
                       <p></p>
@@ -92,6 +93,7 @@ const HomeView = React.createClass({
               <div className="hexagon">
                 <div className="hex1">
                   <div className="hex2 hexB">
+                    <span className="fa fa-rss hexIcon" aria-hidden="true"></span>
                     <div className="desc">
                       <h2></h2>
                       <p></p>
@@ -104,6 +106,7 @@ const HomeView = React.createClass({
               <div className="hexagon">
                 <div className="hex1">
                   <div className="hex2 hexC">
+                    <span className="fa fa-file-code-o hexIcon" aria-hidden="true"></span>
                     <div className="desc">
                       <h2></h2>
                       <p></p>
@@ -116,6 +119,7 @@ const HomeView = React.createClass({
               <div className="hexagon">
                 <div className="hex1">
                   <div className="hex2 hexD">
+                    <span className="fa fa-desktop hexIcon" aria-hidden="true"></span>
                     <div className="desc">
                       <h2></h2>
                       <p></p>
@@ -128,6 +132,7 @@ const HomeView = React.createClass({
               <div className="hexagon">
                 <div className="hex1">
                   <div className="hex2 hexE">
+                    <span className="fa fa-commenting hexIcon" aria-hidden="true"></span>
                     <div className="desc">
                       <h2></h2>
                       <p></p>
@@ -140,6 +145,7 @@ const HomeView = React.createClass({
               <div className="hexagon">
                 <div className="hex1">
                   <div className="hex2 hexF">
+                    <span className="fa fa-folder-open hexIcon" aria-hidden="true"></span>
                     <div className="desc">
                       <h2></h2>
                       <p></p>
@@ -154,6 +160,7 @@ const HomeView = React.createClass({
               <div className="hexagon">
                 <div className="hex1">
                   <div className="hex2 hexG">
+                    <span className="fa fa-object-group hexIcon" aria-hidden="true"></span>
                     <div className="desc">
                       <h2></h2>
                       <p></p>
