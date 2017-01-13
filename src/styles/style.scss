@@ -99,6 +99,7 @@ nav{
 	background: #559587;
 	font-size: 40px;
 	color: white;
+	z-index: 10000;
 }
 
 .navLinks{
@@ -290,6 +291,7 @@ nav{
   overflow: hidden;
 	position: relative;
 	top: -200px;
+
 	// width: 100%;
 	.center {
 	  float: left;
