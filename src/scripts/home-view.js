@@ -65,6 +65,9 @@ const HomeView = React.createClass({
             <span className="fa fa-linkedin-square" aria-hidden="true"></span>
             <span className="fa fa-envelope" aria-hidden="true"></span>
           </div>
+          <div className="botNavButts">
+            <span className="fa fa-bullhorn" aria-hidden="true"></span>
+          </div>
         </nav>
         <div className="jumboHeader">
           <img className="headerBackPic" src="../images/photo-1432821596592-e2c18b78144f.jpeg"/>

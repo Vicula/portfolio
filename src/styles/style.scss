@@ -74,19 +74,41 @@ body{
 	}
 }
 
+.botNavButts{
+	position: fixed;
+	bottom: 0;
+	right: 10%;
+	padding: 5px;
+	background: green;
+	font-size: 30px;
+}
+
 .navLinks{
 	position: fixed;
-	top: 0;
-	left: 45%;
+	top: -1%;
+	left: 37%;
 	font-size: 25px;
 	color: white;
-	text-decoration: underline;
+	// text-decoration: underline bold;
 	// width: 30%;
 	// margin: auto;
 
 	.navLkHome{
 		padding-right: 20px;
 	}
+	.navLkSkills{
+		padding-right: 20px;
+	}
+	.navLkProjects{
+		padding-right: 20px;
+	}
+	.navLkAbout{
+		padding-right: 20px;
+	}
+	.navLkContact{
+		padding-right: 20px;
+	}
+
 }
 
 .navLogo{
