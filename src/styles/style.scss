@@ -480,13 +480,25 @@ nav{
 
 	.contactPic{
 		width: 50%;
-		float: right;
+		// float: right;
 	}
 
 }
 
 .quoteBox{
 	font-size: 15px;
+	width: 100%;
+	text-align: center;
+	background: #559587;
+	color: white;
+}
+
+.footerBox{
+	font-size: 15px;
+	width: 100%;
+	background: #22313F;
+	margin: 0;
+	
 }
 
 // .headerName{
