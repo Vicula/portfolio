@@ -25,7 +25,7 @@ const ProjectView = React.createClass({
               <div className="innerProjectBox box4"></div>
             </div>
           </div>
-          <div>See More ></div>
+          <div className="seeMoreBox">See More ></div>
       </div>
 
 

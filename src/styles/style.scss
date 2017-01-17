@@ -403,9 +403,32 @@ nav{
 			background-repeat: no-repeat;
 			background-size: cover;
 		}
+		.box4{
+			background: url('../images/cliqueUpAuth.png');
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+	}
+
+	.seeMoreBox{
+		padding: 10px;
+		font-weight: bolder;
+		font-size: 20px;
+		border: 5px solid #559587;
+		width: 10%;
+		margin: auto;
+	}
+
+	.seeMoreBox:hover{
+		color: gray;
+		border: 7px solid #559587;
+		cursor: pointer;
 	}
 
 }
+
+
 
 .aboutMeBox{
 	font-size: 15px;
