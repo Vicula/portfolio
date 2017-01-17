@@ -4,20 +4,34 @@ const $ = require('jquery');
 
 const SkillsView = React.createClass({
 
+  hoveringFun: function(hexagon){
+    console.log(hexagon)
+  },
+
+  componentDidMount: function(){
+      let self = this;
+      console.log(self.refs.hex1)
+
+      self.refs.hex1.addEventListener("mouseover", self.hoveringFun)
+      self.refs.hex2.addEventListener("mouseover", self.hoveringFun)
+
+  },
+
 
   render: function(){
 
-    let testfun = function(){
-      let test = $(this)
-      console.log(test)
-    }
 
+    // let self = this;
+    // console.log(self)
+    //
+    //
+    // self.refs.hex1.onHover(self.hoveringFun)
 
     return(
 
       <div className="skillsBox">
           <div className="hexRowEven">
-            <div onMouseOver={testfun}className="center">
+            <div ref="hex1" className="center">
               <div className="hexagon">
                 <div className="hex1">
                   <div className="hex2 hexA">
@@ -35,7 +49,7 @@ const SkillsView = React.createClass({
                 <div className="hex1">
                   <div className="hex2 hexB">
                     <span className="fa fa-rss hexIcon" aria-hidden="true"></span>
-                    <div className="desc">
+                    <div ref="hex2" className="desc">
                       <h2></h2>
                       <p></p>
                     </div>
