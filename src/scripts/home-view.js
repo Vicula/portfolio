@@ -3,6 +3,7 @@ const React = require('react');
 var NavView = require('./nav-view.js')
 var HeaderView = require('./header-view.js')
 var SkillsView = require('./skills-view.js')
+var ProjectView = require('./project-view.js')
 
 const HomeView = React.createClass({
 
@@ -15,21 +16,7 @@ const HomeView = React.createClass({
         <NavView/>
         <HeaderView/>
         <SkillsView/>
-        <div className="projectBox">
-          <h1>PROJECTS</h1>
-          <p>These are a few of my projects that i am currently working on or have already completed. Each project uses different Javascript libraries and other frameworks that i use. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <div>
-            <div className="outterProjectBox">
-              <div className="innerProjectBox"></div>
-              <div className="innerProjectBox"></div>
-            </div>
-            <div className="outterProjectBox">
-              <div className="innerProjectBox"></div>
-              <div className="innerProjectBox"></div>
-            </div>
-          </div>
-          <div>See More ></div>
-        </div>
+        <ProjectView/>
         <div className="aboutMeBox">
           <h1>ABOUT ME</h1>
           <p>These are a few of my projects that i am currently working on or have already completed. Each project uses different Javascript libraries and other frameworks that i use. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
