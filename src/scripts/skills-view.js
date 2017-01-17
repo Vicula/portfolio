@@ -233,7 +233,7 @@ const SkillsView = React.createClass({
             <div className="center">
               <div className="hexagon">
                 <div className="hex1">
-                  <div className="hex2 hexB">
+                  <div className="hex2 hexD">
                     <span className="fa fa-stack-overflow hexIcon" aria-hidden="true"></span>
                     <div className="desc">
                       <h2></h2>
