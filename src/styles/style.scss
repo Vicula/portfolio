@@ -473,11 +473,20 @@ nav{
 		margin: auto;
 	}
 
+	.contactLeft{
+		float: left;
+		width: 50%;
+	}
+
 	.contactPic{
 		width: 50%;
 		float: right;
 	}
 
+}
+
+.quoteBox{
+	font-size: 15px;
 }
 
 // .headerName{

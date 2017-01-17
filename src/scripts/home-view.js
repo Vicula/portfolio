@@ -335,9 +335,10 @@ const HomeView = React.createClass({
           <h1>Contact</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           <div>
-            <div>
+            <div className="contactLeft">
               <form>
-                
+                <input type="input"/>
+                <input type="input"/>
               </form>
             </div>
             <div>
@@ -345,7 +346,10 @@ const HomeView = React.createClass({
             </div>
           </div>
         </div>
-        <div className="quoteBox"></div>
+        <div className="quoteBox">
+          <h1>Quote of The Day</h1>
+          <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h2>
+        </div>
         <div className="footerBox"></div>
       </div>
     )
