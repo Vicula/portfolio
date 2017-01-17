@@ -1,74 +1,46 @@
 const React = require('react');
 
+var NavView = require('./nav-view.js')
+
 const HomeView = React.createClass({
-  getInitialState: function(){
-    return {
-      scrollPosition: false
-    }
-  },
-  isScrolling: function(){
-    var self = this
-    // console.log(this.state.scrollPosition)
-    if(document.body.scrollTop > 575){
-      self.setState({scrollPosition: true})
-      // console.log("hey1")
-      return
-    }else if(document.body.scrollTop < 575){
-      self.setState({scrollPosition: false})
-
-    }
-    // if(){
-    //   if(window.scrollTop < 300){
-    //     self.setState({scrollPosition: false})
-    //     console.log("hey2")
-    //   }
-    // }
-  },
-
-  componentDidMount: function(){
-    window.addEventListener("scroll", this.isScrolling)
-  },
+  // getInitialState: function(){
+  //   return {
+  //     scrollPosition: false
+  //   }
+  // },
+  // isScrolling: function(){
+  //   var self = this
+  //   // console.log(this.state.scrollPosition)
+  //   if(document.body.scrollTop > 575){
+  //     self.setState({scrollPosition: true})
+  //     // console.log("hey1")
+  //     return
+  //   }else if(document.body.scrollTop < 575){
+  //     self.setState({scrollPosition: false})
+  //
+  //   }
+  //   // if(){
+  //   //   if(window.scrollTop < 300){
+  //   //     self.setState({scrollPosition: false})
+  //   //     console.log("hey2")
+  //   //   }
+  //   // }
+  // },
+  //
+  // componentDidMount: function(){
+  //   window.addEventListener("scroll", this.isScrolling)
+  // },
 
 
   render: function(){
 
-    var picName = ""
-
-    if(this.state.scrollPosition === false){
-      picName = ""
-    } else {
-      picName = "altNav"
-    }
 
 
-
-    let runThing = function(){
-      console.log(document.body.scrollTop)
-    }
-
-    // <div className="picHolder">
-    //   <img className={picName} src="../images/Victor 1_Fotor.jpg"/>
-    // </div>
 
 
     return(
       <div>
-        <nav className={picName}>
-          <div className="navLogo">
-            <span className="fa fa-code logoCentered" aria-hidden="true"></span>
-          </div>
-          <div className="navLinks">
-            <p className=""><span className="navLkHome">Home</span><span className="navLkSkills">Skills</span><span className="navLkProjects">Projects</span><span className="navLkAbout">About</span><span className="navLkContact">Contact</span></p>
-          </div>
-          <div className="navButts">
-            <span onClick={runThing} className="fa fa-github" aria-hidden="true"></span>
-            <span className="fa fa-linkedin-square" aria-hidden="true"></span>
-            <span className="fa fa-envelope" aria-hidden="true"></span>
-          </div>
-          <div className="botNavButts">
-            <span className="fa fa-bullhorn" aria-hidden="true"></span>
-          </div>
-        </nav>
+        <NavView/>
         <div className="jumboHeader">
           <img className="headerBackPic" src="../images/photo-1432821596592-e2c18b78144f.jpeg"/>
 
