@@ -1,51 +1,18 @@
 const React = require('react');
 
 var NavView = require('./nav-view.js')
+var HeaderView = require('./header-view.js')
 
 const HomeView = React.createClass({
-  // getInitialState: function(){
-  //   return {
-  //     scrollPosition: false
-  //   }
-  // },
-  // isScrolling: function(){
-  //   var self = this
-  //   // console.log(this.state.scrollPosition)
-  //   if(document.body.scrollTop > 575){
-  //     self.setState({scrollPosition: true})
-  //     // console.log("hey1")
-  //     return
-  //   }else if(document.body.scrollTop < 575){
-  //     self.setState({scrollPosition: false})
-  //
-  //   }
-  //   // if(){
-  //   //   if(window.scrollTop < 300){
-  //   //     self.setState({scrollPosition: false})
-  //   //     console.log("hey2")
-  //   //   }
-  //   // }
-  // },
-  //
-  // componentDidMount: function(){
-  //   window.addEventListener("scroll", this.isScrolling)
-  // },
 
 
   render: function(){
 
 
-
-
-
     return(
       <div>
         <NavView/>
-        <div className="jumboHeader">
-          <img className="headerBackPic" src="../images/photo-1432821596592-e2c18b78144f.jpeg"/>
-
-          <h1 className="headerText">Front-End Developer <span className="headerLowerText">Working for you</span></h1>
-        </div>
+        <HeaderView/>
         <div className="skillsBox">
           <div className="hexRowEven">
             <div className="center">
@@ -331,12 +298,6 @@ const HomeView = React.createClass({
   }
 })
 
-// var scrollListening = function(){
-//   console.log("scrolling")
-//   if(window.scrollTop > 200){
-//     picName = "headerProfPic"
-//   }
-// }
 
 
 module.exports = HomeView
