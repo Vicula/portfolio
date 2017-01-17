@@ -458,7 +458,7 @@ nav{
 }
 
 .contactBox{
-	font-size: 15px;
+	font-size: 0;
 	h1{
 		font-size: 150px;
 		text-align: center;
@@ -486,19 +486,34 @@ nav{
 }
 
 .quoteBox{
-	font-size: 15px;
+	font-size: 0;
 	width: 100%;
 	text-align: center;
 	background: #559587;
 	color: white;
+	display: inline-block;
+	border: none;
+	h1{
+		font-size: 15px;
+	}
+	h2{
+		font-size: 15px;
+	}
 }
 
 .footerBox{
-	font-size: 15px;
+	font-size: 0;
+	// margin-top: -4px;
 	width: 100%;
-	background: #22313F;
+	background: #2e2e2e;
 	margin: 0;
-	
+	display: inline-block;
+	border: none;
+
+	p{
+		font-size: 15px;
+	}
+
 }
 
 // .headerName{
