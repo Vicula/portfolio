@@ -430,12 +430,39 @@ nav{
 		// max-width: 1440px;
 		margin-top: 50px;
 
+		.aBox1{
+			background: url('../images/pexels-photo-129927.jpeg');
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		.aBox2{
+			background: url('../images/pexels-photo-90807.jpeg');
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+
+		}
+
+		.aBox3{
+			background: url('../images/indoors-office-macbook-computer.jpg');
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
 		.aboutPic{
 			display: inline-block;
 			width: 33.33333%;
 			height: 500px;
-			background: green;
-			border: 1px solid black;
+			h1{
+				position: relative;
+				top: 200px;
+				color: white;
+				font-size: 60px;
+			}
+			// background: green;
+			// border: 1px solid black;
 		}
 	}
 }
@@ -486,7 +513,7 @@ nav{
 
 }
 .hexI{
-	background-image: url('../images/pexels-photo (1).jpg');
+	background-image: url('../images/woodblue.jpg');
 
 }
 
