@@ -1,4 +1,5 @@
 const React = require('react');
+const $ = require('jquery');
 
 
 const SkillsView = React.createClass({
@@ -6,12 +7,17 @@ const SkillsView = React.createClass({
 
   render: function(){
 
+    let testfun = function(){
+      let test = $(this)
+      console.log(test)
+    }
+
 
     return(
 
       <div className="skillsBox">
           <div className="hexRowEven">
-            <div className="center">
+            <div onMouseOver={testfun}className="center">
               <div className="hexagon">
                 <div className="hex1">
                   <div className="hex2 hexA">
