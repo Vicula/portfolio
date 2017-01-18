@@ -21,10 +21,7 @@ nav{
 	z-index: 100000;
 }
 
-// img{
-// 	width: 100%;
-//
-// }
+
 
 .altNav{
 	background: #559587;
@@ -472,6 +469,14 @@ nav{
 			display: inline-block;
 			margin: 50px;
 			text-align: center;
+
+			&:hover{
+				.projectDesc{
+					visibility: visible;
+				}
+			}
+
+
 		}
 
 		.box1{
@@ -515,6 +520,43 @@ nav{
 		cursor: pointer;
 	}
 
+}
+
+
+
+.projectDesc{
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	// padding: auto;
+	padding-top: 25%;
+	display: block;
+	visibility: hidden;
+	background: rgba(255,255,255,0.8);
+
+	.projectTitle{
+		font-size: 40px;
+		margin: 0;
+	}
+	.projectText{
+		font-size: 20px;
+	}
+	.projectBtn{
+		width: 15%;
+		background: #559587;
+		padding: 8px;
+		margin: auto;
+		margin-top: 20px;
+		// border: 2px solid gray;
+		font-weight: bolder;
+		color: white;
+		cursor: pointer;
+		&:hover{
+			// text-decoration: underline;
+
+			color: lightgray;
+		}
+	}
 }
 
 

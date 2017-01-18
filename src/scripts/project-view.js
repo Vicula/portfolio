@@ -16,13 +16,35 @@ const ProjectView = React.createClass({
           <div>
             <div className="outterProjectBox">
               <div className="innerProjectBox box1">
-
+                <div className="projectDesc">
+                  <h1 className="projectTitle">Etsy clone</h1>
+                  <p className="projectText">A clone of etsy built in react, using SCSS and Javascript. It features closer looks at the items and a working shopping cart.</p>
+                  <div className="projectBtn">Repo ></div>
+                </div>
               </div>
-              <div className="innerProjectBox box2"></div>
+              <div className="innerProjectBox box2">
+                <div className="projectDesc">
+                  <h1 className="projectTitle">Etsy clone</h1>
+                  <p className="projectText">A clone of etsy built in react, using SCSS and Javascript. It features closer looks at the items and a working shopping cart.</p>
+                  <div className="projectBtn">Repo ></div>
+                </div>
+              </div>
             </div>
             <div className="outterProjectBox">
-              <div className="innerProjectBox box3"></div>
-              <div className="innerProjectBox box4"></div>
+              <div className="innerProjectBox box3">
+                <div className="projectDesc">
+                  <h1 className="projectTitle">Etsy clone</h1>
+                  <p className="projectText">A clone of etsy built in react, using SCSS and Javascript. It features closer looks at the items and a working shopping cart.</p>
+                  <div className="projectBtn">Repo ></div>
+                </div>
+              </div>
+              <div className="innerProjectBox box4">
+                <div className="projectDesc">
+                  <h1 className="projectTitle">Etsy clone</h1>
+                  <p className="projectText">A clone of etsy built in react, using SCSS and Javascript. It features closer looks at the items and a working shopping cart.</p>
+                  <div className="projectBtn">Repo ></div>
+                </div>
+              </div>
             </div>
           </div>
           <div className="seeMoreBox">See More ></div>
