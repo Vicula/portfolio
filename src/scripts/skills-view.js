@@ -6,11 +6,27 @@ const SkillsView = React.createClass({
 
   hoveringFun: function(hexagon){
     console.log(hexagon)
+
+    if(hexagon.target.className === "center"){
+      let crntDiv = hexagon.target
+      let crntClass = crntDiv.children[0].children[0].children[0]
+      console.log(crntClass.className)
+
+      let daClass = crntClass.className
+      let showClass = " showingHex"
+      // crntClass =+ " showingHex"
+      crntClass.className = daClass + showClass
+      // console.log("it ran")
+
+    } else if(hexagon.target.className === "desc"){
+      let daDiv = hexagon.target
+      let daClass = daDiv.parentElement
+    }
   },
 
   componentDidMount: function(){
       let self = this;
-      console.log(self.refs.hex1)
+      // console.log(self.refs.hex1)
 
       self.refs.hex1.addEventListener("mouseover", self.hoveringFun)
       self.refs.hex2.addEventListener("mouseover", self.hoveringFun)
@@ -44,31 +60,39 @@ const SkillsView = React.createClass({
     //
     // self.refs.hex1.onHover(self.hoveringFun)
 
+    // let testTest = function(dom){
+    //
+    //
+    //   if(dom.target.className === "desc"){
+    //
+    //   }
+    // }
+
     return(
 
       <div className="skillsBox">
           <div className="hexRowEven">
-            <div ref="hex1" className="center">
+            <div className="center">
               <div className="hexagon">
                 <div className="hex1">
                   <div className="hex2 hexA">
                     <span className="fa fa-database hexIcon" aria-hidden="true"></span>
-                    <div className="desc">
-                      <h2></h2>
-                      <p></p>
+                    <div ref="hex1" className="desc">
+                      <h2>Advanced Databasing</h2>
+                      <p>I'm really good at it</p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div ref="hex2" className="center">
+            <div className="center">
               <div className="hexagon">
                 <div className="hex1">
                   <div className="hex2 hexB">
                     <span className="fa fa-rss hexIcon" aria-hidden="true"></span>
-                    <div className="desc">
-                      <h2></h2>
-                      <p></p>
+                    <div ref="hex2" className="desc">
+                      <h2>Advanced Databasing</h2>
+                      <p>I'm really good at it</p>
                     </div>
                   </div>
                 </div>
@@ -80,8 +104,8 @@ const SkillsView = React.createClass({
                   <div className="hex2 hexC">
                     <span className="fa fa-file-code-o hexIcon" aria-hidden="true"></span>
                     <div className="desc">
-                      <h2></h2>
-                      <p></p>
+                      <h2>Advanced Databasing</h2>
+                      <p>I'm really good at it</p>
                     </div>
                   </div>
                 </div>
@@ -93,8 +117,8 @@ const SkillsView = React.createClass({
                   <div className="hex2 hexD">
                     <span className="fa fa-desktop hexIcon" aria-hidden="true"></span>
                     <div className="desc">
-                      <h2></h2>
-                      <p></p>
+                      <h2>Advanced Databasing</h2>
+                      <p>I'm really good at it</p>
                     </div>
                   </div>
                 </div>
@@ -106,8 +130,8 @@ const SkillsView = React.createClass({
                   <div className="hex2 hexE">
                     <span className="fa fa-commenting hexIcon" aria-hidden="true"></span>
                     <div className="desc">
-                      <h2></h2>
-                      <p></p>
+                      <h2>Advanced Databasing</h2>
+                      <p>I'm really good at it</p>
                     </div>
                   </div>
                 </div>
@@ -119,8 +143,8 @@ const SkillsView = React.createClass({
                   <div className="hex2 hexF">
                     <span className="fa fa-folder-open hexIcon" aria-hidden="true"></span>
                     <div className="desc">
-                      <h2></h2>
-                      <p></p>
+                      <h2>Advanced Databasing</h2>
+                      <p>I'm really good at it</p>
                     </div>
                   </div>
                 </div>
@@ -134,8 +158,8 @@ const SkillsView = React.createClass({
                   <div className="hex2 hexG">
                     <span className="fa fa-object-group hexIcon" aria-hidden="true"></span>
                     <div className="desc">
-                      <h2></h2>
-                      <p></p>
+                      <h2>Advanced Databasing</h2>
+                      <p>I'm really good at it</p>
                     </div>
                   </div>
                 </div>
@@ -147,8 +171,8 @@ const SkillsView = React.createClass({
                   <div className="hex2 hexD">
                     <span className="fa fa-share-alt hexIcon" aria-hidden="true"></span>
                     <div className="desc">
-                      <h2></h2>
-                      <p></p>
+                      <h2>Advanced Databasing</h2>
+                      <p>I'm really good at it</p>
                     </div>
                   </div>
                 </div>
@@ -160,8 +184,8 @@ const SkillsView = React.createClass({
                   <div className="hex2 hexI">
                     <span className="fa fa-sitemap hexIcon" aria-hidden="true"></span>
                     <div className="desc">
-                      <h2></h2>
-                      <p></p>
+                      <h2>Advanced Databasing</h2>
+                      <p>I'm really good at it</p>
                     </div>
                   </div>
                 </div>
@@ -173,8 +197,8 @@ const SkillsView = React.createClass({
                   <div className="hex2 hexB">
                     <span className="fa fa-tablet hexIcon" aria-hidden="true"></span>
                     <div className="desc">
-                      <h2></h2>
-                      <p></p>
+                      <h2>Advanced Databasing</h2>
+                      <p>I'm really good at it</p>
                     </div>
                   </div>
                 </div>
