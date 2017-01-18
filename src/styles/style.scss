@@ -260,6 +260,22 @@ nav{
 	  float: left;
 	  margin: 20px 10px;
 	  width: $width;
+		&:hover{
+			.hexIcon{
+				display: none;
+			}
+			h2{
+				// z-index: 100;
+				display: inherit;
+			}
+			p {
+				display: inherit;
+				// z-index: 100;
+			}
+			.desc{
+				background: $green;
+			}
+		}
 		.hexagon {
 		  transform: rotate(120deg);
 		  cursor: pointer;
@@ -333,6 +349,22 @@ nav{
 	  float: left;
 	  margin: 20px 10px;
 	  width: $width;
+		&:hover{
+			.hexIcon{
+				display: none;
+			}
+			h2{
+				// z-index: 100;
+				display: inherit;
+			}
+			p {
+				display: inherit;
+				// z-index: 100;
+			}
+			.desc{
+				background: $green;
+			}
+		}
 		.hexagon {
 		  transform: rotate(120deg);
 		  cursor: pointer;
@@ -379,6 +411,8 @@ nav{
 		}
 	}
 }
+
+
 
 .showingHex{
 	.hexIcon{
