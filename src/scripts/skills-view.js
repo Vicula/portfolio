@@ -14,6 +14,23 @@ const SkillsView = React.createClass({
 
       self.refs.hex1.addEventListener("mouseover", self.hoveringFun)
       self.refs.hex2.addEventListener("mouseover", self.hoveringFun)
+      self.refs.hex3.addEventListener("mouseover", self.hoveringFun)
+      self.refs.hex4.addEventListener("mouseover", self.hoveringFun)
+      self.refs.hex5.addEventListener("mouseover", self.hoveringFun)
+      self.refs.hex6.addEventListener("mouseover", self.hoveringFun)
+
+      self.refs.hex1.addEventListener("mouseover", self.hoveringFun)
+      self.refs.hex2.addEventListener("mouseover", self.hoveringFun)
+      self.refs.hex3.addEventListener("mouseover", self.hoveringFun)
+      self.refs.hex4.addEventListener("mouseover", self.hoveringFun)
+      self.refs.hex5.addEventListener("mouseover", self.hoveringFun)
+
+      self.refs.hex1.addEventListener("mouseover", self.hoveringFun)
+      self.refs.hex2.addEventListener("mouseover", self.hoveringFun)
+      self.refs.hex3.addEventListener("mouseover", self.hoveringFun)
+      self.refs.hex4.addEventListener("mouseover", self.hoveringFun)
+      self.refs.hex5.addEventListener("mouseover", self.hoveringFun)
+      self.refs.hex6.addEventListener("mouseover", self.hoveringFun)
 
   },
 
@@ -44,12 +61,12 @@ const SkillsView = React.createClass({
                 </div>
               </div>
             </div>
-            <div className="center">
+            <div ref="hex2" className="center">
               <div className="hexagon">
                 <div className="hex1">
                   <div className="hex2 hexB">
                     <span className="fa fa-rss hexIcon" aria-hidden="true"></span>
-                    <div ref="hex2" className="desc">
+                    <div className="desc">
                       <h2></h2>
                       <p></p>
                     </div>
@@ -57,7 +74,7 @@ const SkillsView = React.createClass({
                 </div>
               </div>
             </div>
-            <div className="center">
+            <div ref="hex3" className="center">
               <div className="hexagon">
                 <div className="hex1">
                   <div className="hex2 hexC">
@@ -70,7 +87,7 @@ const SkillsView = React.createClass({
                 </div>
               </div>
             </div>
-            <div className="center">
+            <div ref="hex4" className="center">
               <div className="hexagon">
                 <div className="hex1">
                   <div className="hex2 hexD">
@@ -83,7 +100,7 @@ const SkillsView = React.createClass({
                 </div>
               </div>
             </div>
-            <div className="center">
+            <div ref="hex5" className="center">
               <div className="hexagon">
                 <div className="hex1">
                   <div className="hex2 hexE">
@@ -96,7 +113,7 @@ const SkillsView = React.createClass({
                 </div>
               </div>
             </div>
-            <div className="center">
+            <div ref="hex6" className="center">
               <div className="hexagon">
                 <div className="hex1">
                   <div className="hex2 hexF">
