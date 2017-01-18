@@ -154,7 +154,7 @@ const SkillsView = React.createClass({
 
       <div className="skillsBox">
           <div className="hexRowEven">
-            <div className="center">
+            <span className="hexHolder"><div className="center">
               <div className="hexagon">
                 <div className="hex1">
                   <div className="hex2 hexA">
@@ -166,8 +166,8 @@ const SkillsView = React.createClass({
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="center">
+            </div></span>
+            <span className="hexHolder"><div className="center">
               <div className="hexagon">
                 <div className="hex1">
                   <div className="hex2 hexB">
@@ -179,8 +179,8 @@ const SkillsView = React.createClass({
                   </div>
                 </div>
               </div>
-            </div>
-            <div ref="hex3" className="center">
+            </div></span>
+            <span className="hexHolder"><div ref="hex3" className="center">
               <div className="hexagon">
                 <div className="hex1">
                   <div className="hex2 hexC">
@@ -192,8 +192,8 @@ const SkillsView = React.createClass({
                   </div>
                 </div>
               </div>
-            </div>
-            <div ref="hex4" className="center">
+            </div></span>
+            <span className="hexHolder"><div ref="hex4" className="center">
               <div className="hexagon">
                 <div className="hex1">
                   <div className="hex2 hexD">
@@ -205,8 +205,8 @@ const SkillsView = React.createClass({
                   </div>
                 </div>
               </div>
-            </div>
-            <div ref="hex5" className="center">
+            </div></span>
+            <span className="hexHolder"><div ref="hex5" className="center">
               <div className="hexagon">
                 <div className="hex1">
                   <div className="hex2 hexE">
@@ -218,8 +218,8 @@ const SkillsView = React.createClass({
                   </div>
                 </div>
               </div>
-            </div>
-            <div ref="hex6" className="center">
+            </div></span>
+            <span className="hexHolder"><div ref="hex6" className="center">
               <div className="hexagon">
                 <div className="hex1">
                   <div className="hex2 hexF">
@@ -231,10 +231,10 @@ const SkillsView = React.createClass({
                   </div>
                 </div>
               </div>
-            </div>
+            </div></span>
           </div>
           <div className="hexRowOdd">
-            <div ref="hex21" className="center">
+            <span className="hexHolder"><div ref="hex21" className="center">
               <div className="hexagon">
                 <div className="hex1">
                   <div className="hex2 hexG">
@@ -246,8 +246,8 @@ const SkillsView = React.createClass({
                   </div>
                 </div>
               </div>
-            </div>
-            <div ref="hex22" className="center">
+            </div></span>
+            <span className="hexHolder"><div ref="hex22" className="center">
               <div className="hexagon">
                 <div className="hex1">
                   <div className="hex2 hexD">
@@ -259,8 +259,8 @@ const SkillsView = React.createClass({
                   </div>
                 </div>
               </div>
-            </div>
-            <div ref="hex23" className="center">
+            </div></span>
+            <span className="hexHolder"><div ref="hex23" className="center">
               <div className="hexagon">
                 <div className="hex1">
                   <div className="hex2 hexI">
@@ -272,8 +272,8 @@ const SkillsView = React.createClass({
                   </div>
                 </div>
               </div>
-            </div>
-            <div ref="hex24" className="center">
+            </div></span>
+            <span className="hexHolder"><div ref="hex24" className="center">
               <div className="hexagon">
                 <div className="hex1">
                   <div className="hex2 hexB">
@@ -285,8 +285,8 @@ const SkillsView = React.createClass({
                   </div>
                 </div>
               </div>
-            </div>
-            <div ref="hex25" className="center">
+            </div></span>
+            <span className="hexHolder"><div ref="hex25" className="center">
               <div className="hexagon">
                 <div className="hex1">
                   <div className="hex2 hexG">
@@ -298,10 +298,10 @@ const SkillsView = React.createClass({
                   </div>
                 </div>
               </div>
-            </div>
+            </div></span>
           </div>
           <div className="hexRowEven">
-            <div ref="hex31" className="center">
+            <span className="hexHolder"><div ref="hex31" className="center">
               <div className="hexagon">
                 <div className="hex1">
                   <div className="hex2 hexC">
@@ -313,8 +313,8 @@ const SkillsView = React.createClass({
                   </div>
                 </div>
               </div>
-            </div>
-            <div ref="hex32" className="center">
+            </div></span>
+            <span className="hexHolder"><div ref="hex32" className="center">
               <div className="hexagon">
                 <div className="hex1">
                   <div className="hex2 hexA">
@@ -326,8 +326,8 @@ const SkillsView = React.createClass({
                   </div>
                 </div>
               </div>
-            </div>
-            <div ref="hex33" className="center">
+            </div></span>
+            <span className="hexHolder"><div ref="hex33" className="center">
               <div className="hexagon">
                 <div className="hex1">
                   <div className="hex2 hexE">
@@ -339,8 +339,8 @@ const SkillsView = React.createClass({
                   </div>
                 </div>
               </div>
-            </div>
-            <div ref="hex34" className="center">
+            </div></span>
+            <span className="hexHolder"><div ref="hex34" className="center">
               <div className="hexagon">
                 <div className="hex1">
                   <div className="hex2 hexF">
@@ -352,8 +352,8 @@ const SkillsView = React.createClass({
                   </div>
                 </div>
               </div>
-            </div>
-            <div ref="hex35" className="center">
+            </div></span>
+            <span className="hexHolder"><div ref="hex35" className="center">
               <div className="hexagon">
                 <div className="hex1">
                   <div className="hex2 hexD">
@@ -365,8 +365,8 @@ const SkillsView = React.createClass({
                   </div>
                 </div>
               </div>
-            </div>
-            <div ref="hex36" className="center">
+            </div></span>
+            <span className="hexHolder"><div ref="hex36" className="center">
               <div className="hexagon">
                 <div className="hex1">
                   <div className="hex2 hexI">
@@ -378,7 +378,7 @@ const SkillsView = React.createClass({
                   </div>
                 </div>
               </div>
-            </div>
+            </div></span>
           </div>
       </div>
 
