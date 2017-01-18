@@ -80,17 +80,39 @@ const SkillsView = React.createClass({
 
 
       self.refs.hex21.addEventListener("mouseover", self.hoveringFun)
+      self.refs.hex21.addEventListener("mouseout", self.doneHovering)
+
       self.refs.hex22.addEventListener("mouseover", self.hoveringFun)
+      self.refs.hex22.addEventListener("mouseout", self.doneHovering)
+
       self.refs.hex23.addEventListener("mouseover", self.hoveringFun)
+      self.refs.hex23.addEventListener("mouseout", self.doneHovering)
+
       self.refs.hex24.addEventListener("mouseover", self.hoveringFun)
+      self.refs.hex24.addEventListener("mouseout", self.doneHovering)
+
       self.refs.hex25.addEventListener("mouseover", self.hoveringFun)
+      self.refs.hex25.addEventListener("mouseout", self.doneHovering)
+
 
       self.refs.hex31.addEventListener("mouseover", self.hoveringFun)
+      self.refs.hex31.addEventListener("mouseout", self.doneHovering)
+
       self.refs.hex32.addEventListener("mouseover", self.hoveringFun)
+      self.refs.hex32.addEventListener("mouseout", self.doneHovering)
+
       self.refs.hex33.addEventListener("mouseover", self.hoveringFun)
+      self.refs.hex33.addEventListener("mouseout", self.doneHovering)
+
       self.refs.hex34.addEventListener("mouseover", self.hoveringFun)
+      self.refs.hex34.addEventListener("mouseout", self.doneHovering)
+
       self.refs.hex35.addEventListener("mouseover", self.hoveringFun)
+      self.refs.hex35.addEventListener("mouseout", self.doneHovering)
+
       self.refs.hex36.addEventListener("mouseover", self.hoveringFun)
+      self.refs.hex36.addEventListener("mouseout", self.doneHovering)
+
 
   },
 
@@ -254,8 +276,8 @@ const SkillsView = React.createClass({
                   <div className="hex2 hexG">
                     <span className="fa fa-th hexIcon" aria-hidden="true"></span>
                     <div className="desc">
-                      <h2></h2>
-                      <p></p>
+                      <h2>Advanced Databasing</h2>
+                      <p>I'm really good at it</p>
                     </div>
                   </div>
                 </div>
@@ -269,8 +291,8 @@ const SkillsView = React.createClass({
                   <div className="hex2 hexC">
                     <span className="fa fa-html5 hexIcon" aria-hidden="true"></span>
                     <div className="desc">
-                      <h2></h2>
-                      <p></p>
+                      <h2>Advanced Databasing</h2>
+                      <p>I'm really good at it</p>
                     </div>
                   </div>
                 </div>
@@ -282,8 +304,8 @@ const SkillsView = React.createClass({
                   <div className="hex2 hexA">
                     <span className="fa fa-github-alt hexIcon" aria-hidden="true"></span>
                     <div className="desc">
-                      <h2></h2>
-                      <p></p>
+                      <h2>Advanced Databasing</h2>
+                      <p>I'm really good at it</p>
                     </div>
                   </div>
                 </div>
@@ -295,8 +317,8 @@ const SkillsView = React.createClass({
                   <div className="hex2 hexE">
                     <span className="fa fa-css3 hexIcon" aria-hidden="true"></span>
                     <div className="desc">
-                      <h2></h2>
-                      <p></p>
+                      <h2>Advanced Databasing</h2>
+                      <p>I'm really good at it</p>
                     </div>
                   </div>
                 </div>
@@ -308,8 +330,8 @@ const SkillsView = React.createClass({
                   <div className="hex2 hexF">
                     <span className="fa fa-coffee hexIcon" aria-hidden="true"></span>
                     <div className="desc">
-                      <h2></h2>
-                      <p></p>
+                      <h2>Advanced Databasing</h2>
+                      <p>I'm really good at it</p>
                     </div>
                   </div>
                 </div>
@@ -321,8 +343,8 @@ const SkillsView = React.createClass({
                   <div className="hex2 hexD">
                     <span className="fa fa-stack-overflow hexIcon" aria-hidden="true"></span>
                     <div className="desc">
-                      <h2></h2>
-                      <p></p>
+                      <h2>Advanced Databasing</h2>
+                      <p>I'm really good at it</p>
                     </div>
                   </div>
                 </div>
@@ -334,8 +356,8 @@ const SkillsView = React.createClass({
                   <div className="hex2 hexI">
                     <span className="fa fa-codepen hexIcon" aria-hidden="true"></span>
                     <div className="desc">
-                      <h2></h2>
-                      <p></p>
+                      <h2>Advanced Databasing</h2>
+                      <p>I'm really good at it</p>
                     </div>
                   </div>
                 </div>
