@@ -6,6 +6,7 @@ const SkillsView = React.createClass({
 
   hoveringFun: function(hexagon){
     console.log(hexagon)
+    let showClass = " showingHex"
 
     if(hexagon.target.className === "center"){
       let crntDiv = hexagon.target
@@ -13,14 +14,45 @@ const SkillsView = React.createClass({
       console.log(crntClass.className)
 
       let daClass = crntClass.className
-      let showClass = " showingHex"
+
       // crntClass =+ " showingHex"
       crntClass.className = daClass + showClass
       // console.log("it ran")
 
     } else if(hexagon.target.className === "desc"){
       let daDiv = hexagon.target
-      let daClass = daDiv.parentElement
+      let daCrntClass = daDiv.parentElement
+
+      let theClass = daCrntClass.className
+
+      daCrntClass.className = theClass + showClass
+
+    }
+  },
+  doneHovering: function(element){
+    // console.log('i got here')
+    // console.log(element)
+    if(element.target.className === "desc"){
+      // console.log("and here")
+      let crntDiv = element.target
+      let crntClass = crntDiv.parentElement
+      // console.log(crntClass.className.split(" "))
+      let classList = crntClass.className.split(" ")
+
+      // let daClass = crntClass.className
+      //
+      // // crntClass =+ " showingHex"
+      crntClass.className = classList[0] + " " +classList[1]
+      // console.log("it ran")
+
+    } else if(element.target.className === "tickle"){
+      // let daDiv = element.target
+      // let daCrntClass = daDiv.parentElement
+      //
+      // let theClass = daCrntClass.className
+      //
+      // daCrntClass.className = theClass + showClass
+
     }
   },
 
@@ -29,11 +61,23 @@ const SkillsView = React.createClass({
       // console.log(self.refs.hex1)
 
       self.refs.hex1.addEventListener("mouseover", self.hoveringFun)
+      self.refs.hex1.addEventListener("mouseout", self.doneHovering)
+
       self.refs.hex2.addEventListener("mouseover", self.hoveringFun)
+      self.refs.hex2.addEventListener("mouseout", self.doneHovering)
+
       self.refs.hex3.addEventListener("mouseover", self.hoveringFun)
+      self.refs.hex3.addEventListener("mouseout", self.doneHovering)
+
       self.refs.hex4.addEventListener("mouseover", self.hoveringFun)
+      self.refs.hex4.addEventListener("mouseout", self.doneHovering)
+
       self.refs.hex5.addEventListener("mouseover", self.hoveringFun)
+      self.refs.hex5.addEventListener("mouseout", self.doneHovering)
+
       self.refs.hex6.addEventListener("mouseover", self.hoveringFun)
+      self.refs.hex6.addEventListener("mouseout", self.doneHovering)
+
 
       self.refs.hex21.addEventListener("mouseover", self.hoveringFun)
       self.refs.hex22.addEventListener("mouseover", self.hoveringFun)
